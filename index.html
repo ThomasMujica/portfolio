@@ -6,7 +6,7 @@
     <!-- Ojo con el posicionamiento -->
     <!-- Modificar el favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Bienvenidos a mi mundo</title>
   </head>
   <body>
@@ -14,26 +14,33 @@
       <section class="logo">
         <span>Thomas Mujica</span>
       </section>
+      <!-- boton hamburguesa -->
+      <!-- boton hamburguesa -->
+      <!-- boton hamburguesa -->
       <section class="navigation">
-        <button class="burgerBtn" id="burgerBtn">
-          <div class="line line1"></div>
-          <div class="line line2"></div>
-        </button>
-        <nav class="navigationItems">
-          <a href="index.html" class="navItem">Inicio</a>
-          <a href="#" class="navItem">Curriculum</a>
-          <a href="#" class="navItem">Portafolio</a>
-          <a href="#" class="navItem">Servicios</a>
-          <a href="#" class="navItem">Testimonios</a>
-          <a href="#" class="navItem">Blog</a>
-          <a href="#" class="navItem">Contacto</a>
-        </nav>
-        <div class="search">
-          <input type="text" placeholder="Buscador..." class="input" />
-          <button class="btn">
-            <i class="fas fa-search"></i>
+        <nav class="navItems active" id="nav">
+          <!--
+          <div class="search">
+            <input type="text" placeholder="Buscador..." class="input" />
+            <button class="searchBtn">
+            incrustar lupa 
+            </button>
+          -->
+          </div>
+          <ul>
+            <li><a href="index.html" class="navItem">Inicio</a></li>
+            <li><a href="#" class="navItem">Curriculum</a></li>
+            <li><a href="#" class="navItem">Portafolio</a></li>
+            <li><a href="#" class="navItem">Servicios</a></li>
+            <li><a href="#" class="navItem">Testimonios</a></li>
+            <li><a href="#" class="navItem">Blog</a></li>
+            <li><a href="#" class="navItem">Contacto</a></li>
+          </ul>
+          <button class="burgerBtn" id="burgerBtn">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
           </button>
-        </div>
+        </nav>
       </section>
     </header>
     <script src="script.js"></script>
